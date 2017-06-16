@@ -1,8 +1,3 @@
-<style>
-body{
-	font-family: cursive;
-}
-</style>
 # 简述
 基于<a href="http://v3.bootcss.com/">botstrap</a>响应式
 <li>1、使用了<a href="http://www.swiper.com.cn/">swiper.js</a>实现手机触屏轮播以及分页（缺点：可能在IE9以下不兼容，至此手机端是非常实用的）</li>

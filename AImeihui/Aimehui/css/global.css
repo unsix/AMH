@@ -97,10 +97,14 @@ h1,h2,h3,h4,h5,h6{padding: 0; margin: 0;}
 	font-size: 19px;
 	line-height: 1.5em;
 }
+#top-1{
+	float: right;
+	height: 50px;
+}
 .container-500 {
 	background-color: #242424;
 	color: #D2D2D2;
-	margin-top: 5em;
+	margin-top: 3em;
 	padding-top: 3em;
 	text-align: center;
 	

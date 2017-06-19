@@ -171,6 +171,7 @@
 	   		 		</ul>
 	   		 	</div>
 	   		 </div>
+			 <div id="top-1"><img  src="images/toTop.jpg"/></div>
 	   		<footer class="container-fluid container-500">
 	   			<div class="container">
 	   				<div class="row">
@@ -283,12 +284,17 @@
         loop: true  //循环
     });
 
-
-		
 		//动画
+		  
 		(function(){
 			window.scrollReveal = new scrollReveal({  move: '50px'});//动画显示，reset: true,循环
 		})();
+		 //点击后滑到顶部
+		$("#top-1").click(function(){
+			$("html , body").animate({ scrollTop : 0 } , 1000); 
+			
+		})
+		  
    </script>
 </html>
 
